@@ -64,24 +64,20 @@
 				}
 			}
 
-			/* Slideshow Container */
+	/* Slideshow Container */
 			.slideshow-container {
-				position: fixed;
+				position: absolute;
 				top: 0;
 				left: 0;
 				width: 100%;
-				max-width: 100%;
 				height: 100%;
-				aspect-ratio: 16/9;
 				z-index: 0;
 				overflow: hidden;
-				padding: auto;
 			}
 
 			.slide {
 				position: absolute;
 				width: 100%;
-				max-width: 100%;
 				height: 100%;
 				opacity: 0;
 				top: 0;
@@ -91,7 +87,6 @@
 				cursor: pointer;
 				transition: opacity 0.5s ease;
 			}
-
 			.slide.active {
 				opacity: 1;
 			}
@@ -560,6 +555,7 @@
 				});
 			}
 		</script>
+
 
 
 
